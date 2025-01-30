@@ -1,19 +1,23 @@
 module.exports = {
-    "name": "Pro Elevated Plumbin",
-    "email": "yourcompany@email.com",
+    "name": "Pro Elevated Plumbing",
+    "email": "help@codestitch.app",
     "phoneForTel": "918-844-0084",
     "phoneFormatted": "(918)  844-0084",
     "address": {
         "lineOne": "First Address Line",
         "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "country" : "US",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "",
+        "country": "US",
+        "mapLink": "https://maps.app.goo.gl/TEdS5KoLC9ZcULuQ6"
     },
-    "domain": "https://www.codestitch.app"
-}
-
+    "socials": {
+        "facebook": "https://www.facebook.com/",
+        "instagram": "https://www.instagram.com/",
+    },
+    //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
+    "domain": "https://www.proelevatedplumbing.com/"
+};
 
 
