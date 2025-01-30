@@ -1,6 +1,6 @@
 module.exports = {
     "name": "Pro Elevated Plumbing",
-    "email": "help@codestitch.app",
+    "email": "example@gmail.com",
     "phoneForTel": "918-844-0084",
     "phoneFormatted": "(918)  844-0084",
     "address": {
