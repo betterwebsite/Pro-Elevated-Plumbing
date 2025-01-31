@@ -74,86 +74,67 @@ eleventyNavigation:
 
 {% block body %}
 
-    <!-- ============================================ -->
-    <!--                    Hero                      -->
-    <!-- ============================================ -->
+ <!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
 
-    <section id="hero">
-        <div class="cs-container">
-            <div class="cs-flex-group">
-                <span class="cs-topper">Pro Elevated Plumbing</span>
-                <h1 class="cs-title">Professional Plumbing you can trust</h1>
-                <p class="cs-text">
-                    Proudly servicing Tulsa and surrounding metro areas. 24/7
-                </p>
-                <!-- <a href="/about" class="cs-button-solid">Call Now</a> -->
-                <a class="cs-button-solid" href="tel:{{client.phoneForTel}}">{{client.phoneFormatted}}</a>
-                <!-- <a href="/contact" class="cs-button-transparent">
-                    <img
-                    class="cs-img"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.digitaloceanspaces.com/Hero/play.svg"
-                    alt="play icon"
-                    width="17"
-                    height="17"/>
-                    Get in Touch
-                </a> -->
-            </div>
+<section id="hero-1061">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">WE OFFER A+ PLUMBING SERVICES IN TULSA & SURROUNDING</h1>
+            <p class="cs-text">
+                Pro Elevated Plumbing is a Plumbing company servicing Tulsa Oklahoma and surrounding cities.
+            </p>
+            <a href="/contact" class="cs-button-solid">Request Appointment</a>
         </div>
-
-        <!-- Background Image -->
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
-            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
-        </picture>
-    </section>
-
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
-
-    <section id="h-services-143">
         <ul class="cs-card-group">
             <li class="cs-item">
-                <picture class="cs-icon">
-                    <img loading="lazy" decoding="async" style="filter: invert(1)" src="assets/svgs/pipe.svg" alt="icon" width="52" height="52" aria-hidden="true">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/car1.svg" alt="car" width="48" height="48">
                 </picture>
-                <h2 class="cs-title">Leaking Pipe Fix</h2>
-                <!-- <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p> -->
+                <h3 class="cs-h3">CERTIFIED PROFESSIONALS</h3>
+                <p class="cs-item-text">
+                    Our designs come with the perfect look and feel of an auto body shop or any car related industry. Use Stitch Mechanics for all car related sites!
+                </p>
             </li>
             <li class="cs-item">
-                <picture class="cs-icon">
-                    <img loading="lazy" decoding="async" style="filter: invert(1)" src="assets/svgs/house.svg" alt="icon" width="52" height="52" aria-hidden="true">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/car2.svg" alt="car" width="48" height="48">
                 </picture>
-                <h2 class="cs-title">Residential Repairs</h2>
-                <!-- <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p> -->
+                <h3 class="cs-h3">HIGHLY RECOMMENDED</h3>
+                <p class="cs-item-text">
+                    Our designs come with the perfect look and feel of an auto body shop or any car related industry. Use Stitch Mechanics for all car related sites!
+                </p>
             </li>
             <li class="cs-item">
-                <picture class="cs-icon">
-                    <img loading="lazy" decoding="async" style="filter: invert(1)" src="assets/svgs/shower.svg" alt="icon" width="52" height="52" aria-hidden="true">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/car3.svg" alt="car" width="48" height="48">
                 </picture>
-                <h2 class="cs-title">Water Heater Installations</h2>
-                <!-- <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p> -->
+                <h3 class="cs-h3">GUARANTEED SERVICES</h3>
+                <p class="cs-item-text">
+                    Our designs come with the perfect look and feel of an auto body shop or any car related industry. Use Stitch Mechanics for all car related sites!
+                </p>
             </li>
             <li class="cs-item">
-                <picture class="cs-icon">
-                    <img loading="lazy" decoding="async" style="filter: invert(1)" src="assets/svgs/sink.svg" alt="icon" width="52" height="52" aria-hidden="true">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/car3.svg" alt="car" width="48" height="48">
                 </picture>
-                <h2 class="cs-title">Bathrooms and Kitchens</h2>
-                <!-- <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p> -->
+                <h3 class="cs-h3">FAIR & UPRONT PRICING</h3>
+                <p class="cs-item-text">
+                    Our designs come with the perfect look and feel of an auto body shop or any car related industry. Use Stitch Mechanics for all car related sites!
+                </p>
             </li>
         </ul>
-    </section>
+    </div>
+
+    <!-- Background Image, there's a background image in the CSS for the parallax effect you'll need to change as well if you swap out our images -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/plumber.jpg">
+        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/plumber.jpg">
+        <img decoding="async" src="https://ik.imagekit.io/6ycdefzj5/plumber.jpg" alt="mechanic" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                            
 
     <!-- ============================================ -->
     <!--                 Side By Side                 -->
@@ -212,6 +193,206 @@ eleventyNavigation:
             </div>
         </div>
     </section>
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-1189">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Stat Group-->
+            <div class="cs-stat">
+                <picture class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/why-icon.svg" alt="icon" width="48" height="48" aria-hidden="true">
+                </picture>
+                <div class="cs-flex">
+                    <span class="cs-number">2534+</span>
+                    <span class="cs-desc">Satisfied Clients</span>
+                </div>
+            </div>
+            
+            <!--Car-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/svgs/van.svg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/svgs/van.svg">
+                <img loading="lazy" decoding="async" src="/assets/svgs/van.svg" alt="appliance" width="858" height="477">
+            </picture>
+
+            <!--Person, to make your own crop of a person, use https://www.remove.bg/ to remove the background of any image -->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/svgs/hero.svg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/svgs/hero.svg">
+                <img loading="lazy" decoding="async" src="/assets/svgs/hero.svg" alt="appliance" width="438" height="588">
+            </picture>
+
+            <!--Stripe background-->
+            <div class="cs-graphic-wrapper">
+                <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/tire-mark.svg" alt="tire mark" width="1469" height="626" aria-hidden="true">
+            </div>
+
+        </div>
+        <div class="cs-content">
+            <span class="cs-topper">About Us</span>
+            <h2 class="cs-title">About Pro Elevated</h2>
+            <p class="cs-text">
+                Offering service plumbing in Tulsa and the surrounding Metro areas 24 hours a day, 7 days a week. With trained professionals providing White Glove Service, we are ready to assist and handle your plumbing issues. We offer a complete plumbing solution to your home needs including repairs and replacements for:
+            </p>
+            <p class="cs-text">
+                <ul style="padding:1rem">
+
+           
+            <a href="" class="cs-button-solid">Read More</a>
+        </div>
+    </div>
+</section>
+                                
+                                
+<!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-1550">
+    <div class="cs-container">
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-truck.svg" alt="icon"
+                            width="48" height="48">
+                </div>
+                <div class="cs-flex">
+                    <h2 class="cs-h2">Free Delivery</h2>
+                    <p class="cs-item-text">
+                        Free shipping on all order
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-headset.svg"
+                            alt="icon" width="48" height="48">
+                </div>
+                <div class="cs-flex">
+                    <h2 class="cs-h2">Online support 24/7</h2>
+                    <p class="cs-item-text">
+                        Support online 24 hrs/day
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-cash.svg" alt="icon"
+                            width="48" height="48">
+                </div>
+                <div class="cs-flex">
+                    <h2 class="cs-h2">Money Return</h2>
+                    <p class="cs-item-text">
+                        Guarantee under 7 days
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <div class="cs-icon-wrapper">
+                    <img class="cs-icon" loading="lazy" decoding="async"
+                            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/ecomm-label.svg" alt="icon"
+                            width="48" height="48">
+                </div>
+                <div class="cs-flex">
+                    <h2 class="cs-h2">Member Discount</h2>
+                    <p class="cs-item-text">
+                        On every order over $120.00
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/Why%20CHoose%20Us%203.png">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/Why%20CHoose%20Us%203.png">
+        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/Why%20CHoose%20Us%203.png" alt="texture" width="1920" height="550">
+    </picture>
+</section>
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-2132">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">What We Do</span>
+            <h2 class="cs-title">Our Special Services for You</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Installation</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/tanklessin.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/tanklessin.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/tanklessin.jpg" alt="person" width="413" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Repair</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/water-heater.jpg" alt="person" width="413" height="440">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="" class="cs-link">
+                    <h3 class="cs-h3">Other</h3>
+                    <!--Background Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg">
+                        <img loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/frontpage.jpg" alt="person" width="413" height="440">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+        <ul class="cs-stats-group">
+            <li class="cs-stats">
+                <span class="cs-header">Projects Completed</span>
+                <span class="cs-number">886</span>
+            </li>
+            <li class="cs-stats">
+                <span class="cs-header">Satisfied Customers</span>
+                <span class="cs-number">2k</span>
+            </li>
+            <li class="cs-stats">
+                <span class="cs-header">Repeat Customers</span>
+                <span class="cs-number">475</span>
+            </li>
+            <li class="cs-stats">
+                <span class="cs-header">Professional Team</span>
+                <span class="cs-number">37</span>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+                                
 
 <!-- ============================================ -->
 <!--                   Gallery                    -->
@@ -457,6 +638,47 @@ eleventyNavigation:
             <a aria-label="read more reviews" href="/reviews" class="cs-button-solid">Our Reviews</a>
         </div>
     </section>
+    <!-- ============================================ -->
+<!--                  Why Choose                  -->
+<!-- ============================================ -->
+
+<section id="why-choose-37">
+    <div class="cs-container">
+        <!-- Right Image -->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg">
+            <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="https://ik.imagekit.io/6ycdefzj5/sink-repair.jpg" alt="lightbulbs on a wire" width="858" height="781">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Why Choose Us</span>
+            <h2 class="cs-title">Et orci volutpat, back up generator installations</h2>
+            <p class="cs-text">
+                Facilisis condimentum viverra scelerisque ac morbi sit sed. Turpis sagittis in blandit eleifend tortor ullamcorper eu placerat. Et orci felis volutpat, etiam vitae egestas volutpat pulvinar. 
+            </p>
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/yellow-check.svg" alt="checkmark" width="27" height="27">
+                    Clean Work
+                </li>
+                <li class="cs-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/yellow-check.svg" alt="checkmark" width="27" height="27">
+                    Attention To Detail
+                </li>
+                <li class="cs-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/yellow-check.svg" alt="checkmark" width="27" height="27">
+                    Punctual
+                </li>
+                <li class="cs-li">
+                    <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Why-Choose/yellow-check.svg" alt="checkmark" width="27" height="27">
+                    Quality Guaranteed
+                </li>
+            </ul>
+            <a href="/contact" class="cs-button-solid">Request A Quote Today</a>
+        </div>
+    </div>
+</section>
+                                
 
     {% include 'components/cta.html' %}
 {% endblock %}
